@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .product {
-    max-width: 23vw;
+    max-width: 20vw;
     position: relative;
     margin: 50px;
     border-radius: 20px;
@@ -17,9 +17,9 @@
     transition: 0.3s;
 }
 .img {
-    top: -50px;
     margin: 0 auto;
     margin-top: -50px;
+    width: 60%;
 }
 .img img {
     max-width: 100%;
@@ -74,7 +74,6 @@
     width: 170px;
     height: 40px;
     margin: 0 auto;
-    margin-bottom: 10 px;
     transition: 0.3s;
     margin-bottom: 10px;
 }

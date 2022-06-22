@@ -11,7 +11,8 @@ class App extends Component {
                 {
                     info.map((item, index) => {
                         return (
-                            <Product 
+                            <Product
+                            id={index} 
                             name={info[index].name} 
                             imgUrl={info[index].imgUrl}
                             discount={info[index].discount}
